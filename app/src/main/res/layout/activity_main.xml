@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mssap.bla.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Иван Иванов Иванов"
+            app:liv_subtitle="Проблема:Сеть"
+            app:liv_menu="@menu/single2"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Петр Петров Петров"
+            app:liv_subtitle="Проблема:Периферия"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Иван Иванов Иванов"
+            app:liv_subtitle="Проблема:Сеть"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Семен Семенов Семен"
+            app:liv_subtitle="Проблема:Сеть"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Алексей Алексеев Алексеев"
+            app:liv_subtitle="Проблема:Сеть"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Максим Максимич Максимыч"
+            app:liv_subtitle="Проблема:Устройство"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:addStatesFromChildren="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:nestedScrollingEnabled="false"
+            android:measureWithLargestChild="false"
+            android:saveEnabled="false"
+            android:transitionGroup="false"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            >
+
+
+        </LinearLayout>
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@id/action_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liv_title="Дмитрий Дмитриев Дмитриев"
+            app:liv_subtitle="Проблема:Сеть"
+            app:liv_menu="@menu/single"
+            app:liv_icon= "@drawable/ic_check_box_outline_blank_black_24dp"
+            app:liv_iconColor="@color/colorPrimaryDark"
+            app:liv_circularIcon="false"
+            app:liv_multiline="false"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
